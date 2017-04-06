@@ -10,7 +10,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Summoner {
-    private String name;
-    private int summonerLevel;
+public class CalcApp {
+    private int teamID;
+    private long now;
+    private double result;
 }
